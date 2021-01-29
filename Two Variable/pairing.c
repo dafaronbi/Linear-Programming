@@ -53,7 +53,6 @@ float* pairing(struct Lines* line,float out[],float u1, float u2){
 	
 
 	//find maximum in alpha at u1
-	line = start;
 	while(line->next != NULL){
 		if(line->next->alpha > u_row && ((line->next->alpha*u1 + line->next->beta) < f_of_u1 + TOLERANCE) && ((line->next->alpha*u1 + line->next->beta) > f_of_u1 - TOLERANCE))
 			u_row = line->next->alpha;
@@ -62,7 +61,7 @@ float* pairing(struct Lines* line,float out[],float u1, float u2){
 
 	printf("u_row = %f\n", u_row);
 
-	if(u_row >= -TOLERANCE){
+	if(u_row <= TOLERANCE){
 		out[0] = u1;
 		out[2] = f_of_u1;
 		return out;
@@ -75,7 +74,7 @@ float* pairing(struct Lines* line,float out[],float u1, float u2){
 	line = start;
 	while(line != NULL){
 		float new_value = line->alpha*u2 +line->beta;
-		if(new_value > f_of_u2 )
+		if(new_value < f_of_u2 )
 			f_of_u2 = new_value;
 		line = line->next;
 		}
@@ -86,14 +85,15 @@ float* pairing(struct Lines* line,float out[],float u1, float u2){
 	//find minum in alpha at u2
 	line = start;
 	while(line->next != NULL){
-		if(line->next->alpha < u_lambda && ((line->next->alpha*u2 + line->next->beta) < f_of_u2 + TOLERANCE) && ((line->next->alpha*u2 + line->next->beta) > f_of_u2 - TOLERANCE))
+		if(line->next->alpha < u_lambda )
 			u_lambda = line->next->alpha;
 		line = line->next;
 	}
 
 	printf("u_lambda = %f\n", u_lambda);
 
-	if(u_row <= TOLERANCE){
+	if(u_lambda >= -TOLERANCE){
+		printf("here\n");
 		out[0] = u2;
 		out[2] = f_of_u2;
 		return out;
@@ -324,8 +324,8 @@ float* pairing(struct Lines* line,float out[],float u1, float u2){
 
 
 			//calculate left and right gradients
-			float lambda =line->alpha;
-			float row = line->alpha;
+			float lambda = INFINITY;
+			float row = -INFINITY;
 
 			//find minimum in alpha
 			while(line->next != NULL){
@@ -335,9 +335,9 @@ float* pairing(struct Lines* line,float out[],float u1, float u2){
 			}
 
 			printf("lambda = %f\n", lambda);
+
 			//start from beginning
 			line = start;
-
 
 			//find maximum in alpha
 			while(line->next != NULL){
@@ -366,6 +366,10 @@ float* pairing(struct Lines* line,float out[],float u1, float u2){
 						if((line->beta - line->next->beta)/(line->next->alpha - line->alpha) >= x_median){
 								printf("line1: a = %f, b = %f\n", line->alpha, line->beta);
 								printf("line2: a = %f, b = %f\n", line->next->alpha, line->next->beta);
+								//account for when first line is deleted
+								if(line == start){
+									start = line->next;
+								}
 								//delete the "right half" or teh value with the greater alpha
 								if(line->next->alpha > line->alpha){
 									printf("LAMBDA DELETE: line: a = %f, b = %f x = %f\n", line->next->alpha, line->next->beta,(line->beta - line->next->beta)/(line->next->alpha - line->alpha));

@@ -98,11 +98,11 @@ void deleteNode(struct Node* head_ref, struct Node* del)
 		// float betas[] = {0,5,-1,6,-1};
 		// int a_size = 5;
 
-		float a1s [] = {1,0,3,-1,0};
-		float a2s [] = {0,2,2,0,-1};
-		float bs [] = {4,12,18,0,0};
+		float a1s [] = {1,0,3};
+		float a2s [] = {0,2,2};
+		float bs [] = {4,12,18};
 
-		struct tv_return* pair_parameters = two_variable(3,5,a1s,a2s,bs,5);
+		struct tv_return* pair_parameters = two_variable(3,5,a1s,a2s,bs,3);
 
 		//store output from paring problem
 		float out[2];
