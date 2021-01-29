@@ -63,7 +63,7 @@ float quickSelect_median(float[],int, float (*pivot_fn)(float [],int ));
 float pickPivot(float [],int);
 
 //size of alpha and beta must be equal
-float* pairing(struct Lines*,float[],float, float);
+float* pairing(struct Lines*,float [],float , float);
 
 struct tv_return* two_variable(float, float ,float [] , float[] , float[] , int);
 
