@@ -3,9 +3,6 @@
 //size of alpha and beta must be equal
 float* pairing(struct Lines* line,float out[],float u1, float u2){
 
-	//coutput of function
-	float f_of_x;
-
 	//save starting address of line
 	struct Lines* start = line;
 
@@ -160,12 +157,15 @@ float* pairing(struct Lines* line,float out[],float u1, float u2){
 		x->next = NULL;
 		struct Node* x_start = x;
 
+		struct Lines* pair = (struct Lines*)malloc(sizeof(struct Lines));
+		pair->next = NULL;
+		struct Lines* pair_start = pair;
+
 		do{
 
 			//restart from beginning
 			line = start;
-/*
-*/			
+			
 			//step 1
 			while(line != NULL){
 
@@ -224,6 +224,16 @@ float* pairing(struct Lines* line,float out[],float u1, float u2){
 
 						}
 						else{
+							pair->next = (struct Lines*)malloc(sizeof(struct Lines));
+							pair = pair->next;
+							pair->alpha = line->alpha;
+							pair->beta = line->beta;
+							pair->next = (struct Lines*)malloc(sizeof(struct Lines));
+							pair = pair->next;
+							pair->alpha = line->next->alpha;
+							pair->beta = line->next->beta;
+							pair->next = NULL;
+
 							x->next = (struct Node*)malloc(sizeof(struct Node));
 							x->next->data = value;
 							x->next->next = NULL;
@@ -301,17 +311,19 @@ float* pairing(struct Lines* line,float out[],float u1, float u2){
 			//Step 3
 			printf("<=============== STEP 3 ===============>\n");
 
-			//Sstart from beginning
-			line = start;
+			//Start from beginning
+			pair = pair_start->next;
 
 			float f_max = -INFINITY;
 			
 			//find maximum f(xmean)
-			while(line != NULL){
-				float new_value = line->alpha*x_median +line->beta;
-				if(new_value > f_max )
+			while(pair != NULL){
+				float new_value = pair->alpha*x_median +pair->beta;
+				if(new_value > f_max ){
 					f_max = new_value;
-				line = line->next;
+					printf("possible f_max is %f from line a=%f b=%f\n",f_max,pair->alpha, pair->beta);
+				}
+				pair = pair->next;
 
 			}
 
@@ -328,9 +340,11 @@ float* pairing(struct Lines* line,float out[],float u1, float u2){
 			float row = -INFINITY;
 
 			//find minimum in alpha
-			while(line->next != NULL){
-				if(line->next->alpha < lambda && ((line->next->alpha*x_median + line->next->beta) < f_max + TOLERANCE) && ((line->next->alpha*x_median + line->next->beta) > f_max - TOLERANCE))
-					lambda = line->next->alpha;
+			while(line != NULL){
+				if(line->alpha < lambda && ((line->alpha*x_median + line->beta) < f_max + TOLERANCE) && ((line->alpha*x_median + line->beta) > f_max - TOLERANCE)){
+					lambda = line->alpha;
+					printf("possible lambda = %f\n", lambda);
+				}
 				line = line->next;
 			}
 
@@ -340,9 +354,11 @@ float* pairing(struct Lines* line,float out[],float u1, float u2){
 			line = start;
 
 			//find maximum in alpha
-			while(line->next != NULL){
-				if(line->next->alpha > row && ((line->next->alpha*x_median + line->next->beta) < f_max + TOLERANCE) && ((line->next->alpha*x_median + line->next->beta) > f_max - TOLERANCE))
-					row = line->next->alpha;
+			while(line != NULL){
+				if(line->alpha > row && ((line->alpha*x_median + line->beta) < f_max + TOLERANCE) && ((line->alpha*x_median + line->beta) > f_max - TOLERANCE)){
+					row = line->alpha;
+					printf("possible row = %f\n", row);
+				}
 				line = line->next;
 			}
 

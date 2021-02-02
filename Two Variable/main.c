@@ -114,11 +114,14 @@ void deleteNode(struct Node* head_ref, struct Node* del)
 			out[0] = 0;
 			out[1] = 1;
 		}
+
+		float x1 = out[0]/out[1];
+		float y1 = (1-3*out[0])/5*out[1];
 		
 
 		printf("<=============== RESULTS ===============>\n");
-		printf("x* = %f\n", out[0]);
-		printf("f* = %f\n", out[1]);
+		printf("x = %f\n", x1);
+		printf("y = %f\n", y1);
 
 		// float alphas[] = {1,1,3,.2,3,3,7,.3,-12,-1,-2,.67,1,-4,45,3.43,-6,-4,-2,4};
 		// float betas[] = {5,6,15,0,6,1,2,1,3,4,5,6,3,4,2,3,2,4,1,0};
