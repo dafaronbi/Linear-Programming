@@ -1,8 +1,8 @@
 #include "two variable.h"
 
 //swap two indexes in array
-void swap(float *p,float *q) {
-   float t;
+void swap(double *p,double *q) {
+   double t;
    
    t=*p; 
    *p=*q; 
@@ -10,7 +10,7 @@ void swap(float *p,float *q) {
 }
 
 //sort array
-void sort(float a[],int n) { 
+void sort(double a[],int n) { 
    int i,j,temp;
 
    for(i = 0;i < n-1;i++) {
@@ -26,7 +26,7 @@ void sort(float a[],int n) {
 // and moves all smaller element to left of 
 // it and greater elements to right
 //from geeks for geeks
-int partition(float arr[], int l, int r) 
+int partition(double arr[], int l, int r) 
 { 
     int x = arr[r], i = l; 
     for (int j = l; j <= r - 1; j++) { 
@@ -43,7 +43,7 @@ int partition(float arr[], int l, int r)
 // element in arr[l..r] using QuickSort  
 // based method.  ASSUMPTION: ALL ELEMENTS 
 // IN ARR[] ARE DISTINCT 
-float kthSmallest(float arr[], int l, int r, int k) 
+double kthSmallest(double arr[], int l, int r, int k) 
 { 
     // If k is smaller than number of  
     // elements in array 
@@ -69,10 +69,10 @@ float kthSmallest(float arr[], int l, int r, int k)
   
     // If k is more than number of  
     // elements in array 
-    return (float)INT_MAX; 
+    return (double)INT_MAX; 
 } 
 
-float quickSelect(float arr[], int size, int k,  float (*pivot_fn)(float [],int )){
+double quickSelect(double arr[], int size, int k,  double (*pivot_fn)(double [],int )){
 
     // Select the kth element in l (0 based)
     // :param l: List of numerics
@@ -83,7 +83,7 @@ float quickSelect(float arr[], int size, int k,  float (*pivot_fn)(float [],int 
         return arr[0];
     }
 
-    float pivot = pivot_fn(arr,size);
+    double pivot = pivot_fn(arr,size);
 
 
     //make linked list of values lower than pivot
@@ -134,7 +134,7 @@ float quickSelect(float arr[], int size, int k,  float (*pivot_fn)(float [],int 
 	//find k in lower array
     if( k < lows_size){
     	//make linked list into array
-		float lows_arr[lows_size];
+		double lows_arr[lows_size];
 
 		int index = 0; 
 		lows = lows_start->next;
@@ -154,7 +154,7 @@ float quickSelect(float arr[], int size, int k,  float (*pivot_fn)(float [],int 
     }
     
     //make linked list into array
-	float highs_arr[highs_size];
+	double highs_arr[highs_size];
 
 	int index = 0; 
 	highs = highs_start->next;
@@ -169,24 +169,24 @@ float quickSelect(float arr[], int size, int k,  float (*pivot_fn)(float [],int 
 
 }
 
-float nlogn_median(float arr[],int size){
+double nlogn_median(double arr[],int size){
 	sort(arr,size);
     return arr[size / 2];
 }
 
 
-float quickSelect_median(float arr[],int size, float (*pivot_fn)(float [],int )){
+double quickSelect_median(double arr[],int size, double (*pivot_fn)(double [],int )){
 	return quickSelect(arr, size,size / 2, pivot_fn);
 }
 
-float pickPivot(float arr[],int size)
+double pickPivot(double arr[],int size)
 {
 	if(size < 5){
 		return nlogn_median(arr,size);
 	}
 
 	//make array to slpit value between chunks
-	float chunks[size/5][5];
+	double chunks[size/5][5];
 
 	//fill up chunks array
 	for(int i = 0; i < (size/5)*5; i++){
@@ -200,7 +200,7 @@ float pickPivot(float arr[],int size)
 	}
 
 	//make an array to store medians of sub arrays
-	float medians[size/5];
+	double medians[size/5];
 
 	for(int i =0; i< size/5; i++){
 
@@ -208,7 +208,7 @@ float pickPivot(float arr[],int size)
 	}
 
 	//fun_ptr is a pointer to function fun()  
-    float (*pivot_fn)(float[],int) = &pickPivot; 
+    double (*pivot_fn)(double[],int) = &pickPivot; 
 
 	return quickSelect_median(medians, size/5,pivot_fn);
 

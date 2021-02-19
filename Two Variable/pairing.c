@@ -1,7 +1,7 @@
 #include "two variable.h"
 
 //size of alpha and beta must be equal
-float* pairing(struct Lines* line,float out[],float u1, float u2){
+double* pairing(struct Lines* line,double out[],double u1, double u2,double c[]){
 
 	//save starting address of line
 	struct Lines* start = line;
@@ -20,13 +20,13 @@ float* pairing(struct Lines* line,float out[],float u1, float u2){
 		return out;
 	}
 
-	float f_of_u1 = -INFINITY;
+	double f_of_u1 = -INFINITY;
 
 	//determine f(u1)
 	line = start;
 	while(line != NULL){
-		float new_value = line->alpha*u1 +line->beta;
-		if(new_value > f_of_u1 )
+		double new_value = line->alpha*u1 +line->beta;
+		if(new_value > f_of_u1 + TOLERANCE)
 			f_of_u1 = new_value;
 		line = line->next;
 		}
@@ -36,8 +36,8 @@ float* pairing(struct Lines* line,float out[],float u1, float u2){
 	
 	//out u1 and F(u1) when u1 = u2
 	if(u1 == u2){
-		out[0] = u1;
-		out[2] = f_of_u1;
+		out[0] = u1/f_of_u1;
+		out[1] = (1-c[0]*u1)/(c[1]*f_of_u1);
 		return out;
 	}
 
@@ -45,33 +45,40 @@ float* pairing(struct Lines* line,float out[],float u1, float u2){
 	line = start;
 
 	//calculate left and right gradients
-	float u_row = line->alpha;
-	float u_lambda =line->alpha;
+	double u_row = -INFINITY;
+	double u_lambda = INFINITY;
 	
 
 	//find maximum in alpha at u1
-	while(line->next != NULL){
-		if(line->next->alpha > u_row && ((line->next->alpha*u1 + line->next->beta) < f_of_u1 + TOLERANCE) && ((line->next->alpha*u1 + line->next->beta) > f_of_u1 - TOLERANCE))
-			u_row = line->next->alpha;
+	while(line != NULL){
+		//calculate y of current line
+		double y = line->alpha*u1 + line->beta;
+		if(u_row < line->alpha  && (fabs(f_of_u1 - y) < TOLERANCE )){
+			u_row = line->alpha;
+			printf("possible u_row = %f\n",u_row);
+		}
 		line = line->next;
 	}
+		
+	
 
 	printf("u_row = %f\n", u_row);
 
-	if(u_row <= TOLERANCE){
-		out[0] = u1;
-		out[2] = f_of_u1;
+	//terminate when u_row > 0
+	if(u_row > -TOLERANCE){
+		out[0] = u1/f_of_u1;
+		out[1] = (1-c[0]*u1)/(c[1]*f_of_u1);
 		return out;
 	}
 
 
 	//determine f(u2)
-	float f_of_u2 = -INFINITY;
+	double f_of_u2 = -INFINITY;
 
 	line = start;
 	while(line != NULL){
-		float new_value = line->alpha*u2 +line->beta;
-		if(new_value < f_of_u2 )
+		double new_value = line->alpha*u2 +line->beta;
+		if(new_value > f_of_u2 + TOLERANCE)
 			f_of_u2 = new_value;
 		line = line->next;
 		}
@@ -81,18 +88,21 @@ float* pairing(struct Lines* line,float out[],float u1, float u2){
 
 	//find minum in alpha at u2
 	line = start;
-	while(line->next != NULL){
-		if(line->next->alpha < u_lambda )
-			u_lambda = line->next->alpha;
+	while(line != NULL){
+		//calculate y of current line
+		double y = line->alpha*u2 + line->beta;
+		if(line->alpha < u_lambda && (fabs(f_of_u2 - y) < TOLERANCE)){
+			u_lambda = line->alpha;
+			printf("possible u_lambda = %f\n",u_lambda);
+		}
 		line = line->next;
 	}
 
 	printf("u_lambda = %f\n", u_lambda);
 
-	if(u_lambda >= -TOLERANCE){
-		printf("here\n");
-		out[0] = u2;
-		out[2] = f_of_u2;
+	if(u_lambda < TOLERANCE){
+		out[0] = u2/f_of_u2;
+		out[1] = (1-c[0]*u2)/(c[1]*f_of_u2);
 		return out;
 	}
 
@@ -100,8 +110,8 @@ float* pairing(struct Lines* line,float out[],float u1, float u2){
 	line = start;
 
 	//variables to find min and max of alpha
-	float a_min = line->alpha;
-	float a_max = line->alpha;
+	double a_min = line->alpha;
+	double a_max = line->alpha;
 
 	while(line != NULL){
 		if(line->alpha < a_min)
@@ -195,7 +205,7 @@ float* pairing(struct Lines* line,float out[],float u1, float u2){
 					else{
 						printf("line1: a = %f, b = %f\n", line->alpha, line->beta);
 						printf("line2: a = %f, b = %f\n", line->next->alpha, line->next->beta);
-						float value = (line->beta - line->next->beta)/(line->next->alpha - line->alpha);
+						double value = (line->beta - line->next->beta)/(line->next->alpha - line->alpha);
 
 						//delete right half if xi value calculated is greater than u2
 						if(value > u2){
@@ -266,7 +276,7 @@ float* pairing(struct Lines* line,float out[],float u1, float u2){
 			} while(k == 0);
 
 			//make linked list into array
-			float x_arr[k];
+			double x_arr[k];
 
 			int index = 0; 
    			x = x_start->next;
@@ -286,7 +296,7 @@ float* pairing(struct Lines* line,float out[],float u1, float u2){
 			}
 
 			//calculate median
-			float x_median;
+			double x_median;
 
 			if(k > 1){
 
@@ -312,18 +322,18 @@ float* pairing(struct Lines* line,float out[],float u1, float u2){
 			printf("<=============== STEP 3 ===============>\n");
 
 			//Start from beginning
-			pair = pair_start->next;
+			line = start;
 
-			float f_max = -INFINITY;
+			double f_max = -INFINITY;
 			
 			//find maximum f(xmean)
-			while(pair != NULL){
-				float new_value = pair->alpha*x_median +pair->beta;
+			while(line != NULL){
+				double new_value = line->alpha*x_median +line->beta;
 				if(new_value > f_max ){
 					f_max = new_value;
-					printf("possible f_max is %f from line a=%f b=%f\n",f_max,pair->alpha, pair->beta);
+					printf("possible f_max is %f from line a=%f b=%f\n",f_max,line->alpha, line->beta);
 				}
-				pair = pair->next;
+				line = line->next;
 
 			}
 
@@ -336,12 +346,13 @@ float* pairing(struct Lines* line,float out[],float u1, float u2){
 
 
 			//calculate left and right gradients
-			float lambda = INFINITY;
-			float row = -INFINITY;
+			double lambda = INFINITY;
+			double row = -INFINITY;
 
 			//find minimum in alpha
 			while(line != NULL){
-				if(line->alpha < lambda && ((line->alpha*x_median + line->beta) < f_max + TOLERANCE) && ((line->alpha*x_median + line->beta) > f_max - TOLERANCE)){
+				double y = line->alpha*x_median + line->beta;
+				if(line->alpha < lambda && (fabs(f_max - y) < TOLERANCE)){
 					lambda = line->alpha;
 					printf("possible lambda = %f\n", lambda);
 				}
@@ -355,7 +366,8 @@ float* pairing(struct Lines* line,float out[],float u1, float u2){
 
 			//find maximum in alpha
 			while(line != NULL){
-				if(line->alpha > row && ((line->alpha*x_median + line->beta) < f_max + TOLERANCE) && ((line->alpha*x_median + line->beta) > f_max - TOLERANCE)){
+				double y = line->alpha*x_median + line->beta;
+				if(line->alpha > row && (fabs(f_max - y) < TOLERANCE)){
 					row = line->alpha;
 					printf("possible row = %f\n", row);
 				}
@@ -368,8 +380,9 @@ float* pairing(struct Lines* line,float out[],float u1, float u2){
 			printf("<=============== STEP 4 ===============>\n");
 
 			if( lambda <= TOLERANCE && row >= -TOLERANCE){
-				out[0] = x_median;
-				out[1] = f_max;
+				printf("NO NEED TO DELETE\n");
+				out[0] = x_median/f_max;
+				out[1] = (1-c[0]*x_median)/(c[1]*f_max);
 				return out;
 			}
 
@@ -449,11 +462,11 @@ float* pairing(struct Lines* line,float out[],float u1, float u2){
 
 	}
 
-	struct tv_return* two_variable(float c1, float c2,float a1 [], float a2 [], float b [], int num_contraints){
+	struct tv_return* two_variable(double c1, double c2,double a1 [], double a2 [], double b [], int num_contraints){
 
 		//set initial starting point
-		float x1_start = 0;
-		float x2_start = 0;
+		double x1_start = 0;
+		double x2_start = 0;
 
 		//value to return
 		struct tv_return* output = (struct tv_return*)malloc(sizeof(struct tv_return));
@@ -477,9 +490,9 @@ float* pairing(struct Lines* line,float out[],float u1, float u2){
 		}
 
 		//allocate memory for contraints
-		float A1[num_contraints];
-		float A2[num_contraints];
-		float B[num_contraints];
+		double A1[num_contraints];
+		double A2[num_contraints];
+		double B[num_contraints];
 
 		//keep track of I0 and I1 contraints
 		int num_I0 = 0;
@@ -507,10 +520,10 @@ float* pairing(struct Lines* line,float out[],float u1, float u2){
 		printf("THERE ARE %d I1 CONSTRAINTS\n",num_I1);
 
 		//alocated memory for u1, u2, and I1 contraints
-		float u1 = -INFINITY;
-		float u2 = INFINITY;
-		float alphas[num_I1];
-		float betas[num_I1];
+		double u1 = -INFINITY;
+		double u2 = INFINITY;
+		double alphas[num_I1];
+		double betas[num_I1];
 
 		//keep track of elemtents in alphas and betas array
 		int I1_index = 0;
@@ -519,10 +532,10 @@ float* pairing(struct Lines* line,float out[],float u1, float u2){
 
 		for(int i =0; i< num_contraints;i++){
 			if(B[i] == 0){
-				if(A1[i] > 0 && (-A2[i]/A1[i]) > u1)
-					u1 = -A2[i]/A1[i];
-				if(A1[i] < 0 && (-A2[i]/A1[i]) < u2)
+				if(A1[i] > 0 && (-A2[i]/A1[i]) < u2)
 					u2 = -A2[i]/A1[i];
+				if(A1[i] < 0 && (-A2[i]/A1[i]) > u1)
+					u1 = -A2[i]/A1[i];
 			}
 			if(B[i] > 0){
 				alphas[I1_index] =  A1[i]/B[i];
