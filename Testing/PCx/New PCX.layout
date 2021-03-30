@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="SRC/memory.c" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1842" topLine="76" />
+		</Cursor>
+	</File>
+	<File name="SRC/wssmp.c" open="1" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2083" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="SRC/basics.c" open="1" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1202" topLine="18" />
+		</Cursor>
+	</File>
+	<File name="SRC/io.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2920" topLine="92" />
+		</Cursor>
+	</File>
+	<File name="SRC/Ng-Peyton.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="19490" topLine="633" />
+		</Cursor>
+	</File>
+	<File name="SRC/PCx.c" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="17524" topLine="495" />
+		</Cursor>
+	</File>
+	<File name="SRC/presolve.c" open="1" top="1" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1529" topLine="38" />
+		</Cursor>
+	</File>
+	<File name="SRC/parameters.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2478" topLine="55" />
+		</Cursor>
+	</File>
+	<File name="SRC/timers.c" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="636" topLine="13" />
+		</Cursor>
+	</File>
+	<File name="SRC/wrappers.c" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2249" topLine="78" />
+		</Cursor>
+	</File>
+	<File name="SRC/algorithm.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="SRC/scale.c" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="481" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="SRC/main.h" open="1" top="0" tabpos="19" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="508" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="SRC/dcolumns.c" open="1" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2136" topLine="58" />
+		</Cursor>
+	</File>
+	<File name="SRC/split.c" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4351" topLine="94" />
+		</Cursor>
+	</File>
+	<File name="SRC/PCx2.c" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="15086" topLine="451" />
+		</Cursor>
+	</File>
+	<File name="SRC/readmps.c" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="549" topLine="1" />
+		</Cursor>
+	</File>
+	<File name="SRC/pre.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5198" topLine="110" />
+		</Cursor>
+	</File>
+	<File name="SRC/main.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="60814" topLine="2332" />
+		</Cursor>
+	</File>
+	<File name="SRC/lpmps.c" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1913" topLine="31" />
+		</Cursor>
+	</File>
+	<File name="SRC/solve.c" open="1" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="46" topLine="54" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>
