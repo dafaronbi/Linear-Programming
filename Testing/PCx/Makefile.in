@@ -1,0 +1,59 @@
+# @configure_input@
+
+export PCx_ARCH = @PCx_ARCH@
+export WSSMP_LIB = @WSSMP_LIB@
+export NG_LIB = @NG_LIB@
+export TARGETDIR = @TARGETDIR@
+
+export CC ?= @CC@
+export CFLAGS ?= @CFLAGS@
+export FC ?= @FC@
+export FCFLAGS ?= @FCFLAGS@
+
+# default
+PCx:: NgPeyton
+	@echo "***************************************************";
+	@echo "Building PCx with the Ng Peyton Cholesky solver....";
+	@echo "***************************************************";
+	$(MAKE) $(MFLAGS) -C SRC PCx_NgPeyton
+
+NgPeyton::
+	@echo "***************************************************";
+	@echo "Building the Ng Peyton Cholesky solver....";
+	@echo "***************************************************";
+	$(MAKE) $(MFLAGS) -C Ng-Peyton
+
+PCx_wssmp::
+	@echo "***************************************************";
+	@echo "Building PCx with the IBM WSSMP Cholesky solver....";
+	@echo "***************************************************";
+	$(MAKE) $(MFLAGS) -C SRC PCx_wssmp
+
+PCx_mysolver::
+	@echo "***********************************************";
+	@echo "Building PCx with the user-supplied solver     ";
+	@echo "Requires file ./SRC/mysolver.c and             ";
+	@echo "    library ./mysolver/libmysolver.a           ";
+	@echo "***********************************************";
+	$(MAKE) $(MFLAGS) -C SRC PCx_mysolver
+
+mex:: NgPeyton
+	@echo "***********************************************";
+	@echo "The Matlab Interface is only available with    ";
+	@echo "    the Ng-Peyton solver.                      ";
+	@echo "***********************************************";
+	$(MAKE) $(MFLAGS) -C mex
+
+doc::
+	-mkdir DOC/_doxygen
+	cd SRC; doxygen
+	$(MAKE) $(MFLAGS) -C DOC html
+
+clean::
+	rm -f PCx
+	rm -f *.log
+	rm -f Ng-Peyton/*.[ao]
+	rm -f SRC/*.[ao]
+	rm -f mex/*.mex*
+	rm -f mex/*.[ao]
+	rm -f F2C/*.[ao]

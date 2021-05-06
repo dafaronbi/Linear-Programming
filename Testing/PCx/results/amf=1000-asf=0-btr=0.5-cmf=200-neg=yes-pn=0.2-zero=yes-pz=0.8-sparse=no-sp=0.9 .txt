@@ -1,0 +1,1274 @@
+<====== NEW PROBLEM 50 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185794       -0.000000 18.207750  18.207750      NO               NO               YES
+TIMES: 0.002600s 0.000006s 0.000005s
+
+<====== NEW PROBLEM 100 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185794       -0.000000 78.083582  78.083582      NO               NO               YES
+TIMES: 0.002289s 0.000004s 0.000004s
+
+<====== NEW PROBLEM 150 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185794       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.001934s 0.000004s 0.000032s
+
+<====== NEW PROBLEM 200 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185795       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.004471s 0.000007s 0.000034s
+
+<====== NEW PROBLEM 250 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185796       -0.000000 39.905660  39.905660      NO               NO               YES
+TIMES: 0.005309s 0.000008s 0.000009s
+
+<====== NEW PROBLEM 300 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185796       -0.000000 15.496689  15.496689      NO               NO               YES
+TIMES: 0.003520s 0.000008s 0.000009s
+
+<====== NEW PROBLEM 350 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185796       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.003999s 0.000009s 0.000030s
+
+<====== NEW PROBLEM 400 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185796       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.004615s 0.000012s 0.000056s
+
+<====== NEW PROBLEM 450 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185796       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.006027s 0.000014s 0.000038s
+
+<====== NEW PROBLEM 500 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185796       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.006561s 0.000015s 0.000038s
+
+<====== NEW PROBLEM 550 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185796       -0.000000 9.769912  9.769912      NO               NO               YES
+TIMES: 0.005749s 0.000014s 0.000016s
+
+<====== NEW PROBLEM 600 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185796       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.006364s 0.000015s 0.000018s
+
+<====== NEW PROBLEM 650 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185796       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.006718s 0.000014s 0.000027s
+
+<====== NEW PROBLEM 700 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185796       -0.000000 53.902299  53.902299      NO               NO               YES
+TIMES: 0.007865s 0.000018s 0.000019s
+
+<====== NEW PROBLEM 750 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185796       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.007612s 0.000019s 0.000023s
+
+<====== NEW PROBLEM 800 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185796       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.008186s 0.000018s 0.000036s
+
+<====== NEW PROBLEM 850 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185796       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.009380s 0.000019s 0.000043s
+
+<====== NEW PROBLEM 900 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185796       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.010653s 0.000027s 0.000047s
+
+<====== NEW PROBLEM 950 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185796       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.010900s 0.000022s 0.000056s
+
+<====== NEW PROBLEM 1000 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185796       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.009860s 0.000023s 0.000042s
+
+<====== NEW PROBLEM 1050 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185796       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.010434s 0.000025s 0.000049s
+
+<====== NEW PROBLEM 1100 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185796       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.010750s 0.000024s 0.000059s
+
+<====== NEW PROBLEM 1150 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185796       -0.000000 40.168884  40.168884      NO               NO               YES
+TIMES: 0.011370s 0.000030s 0.000032s
+
+<====== NEW PROBLEM 1200 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185796       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.011805s 0.000026s 0.000027s
+
+<====== NEW PROBLEM 1250 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185796       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.012646s 0.000039s 0.000033s
+
+<====== NEW PROBLEM 1300 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185797       -0.000000 51.237057  51.237057      NO               NO               YES
+TIMES: 0.012705s 0.000031s 0.000031s
+
+<====== NEW PROBLEM 1350 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185797       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.013238s 0.000028s 0.000031s
+
+<====== NEW PROBLEM 1400 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185797       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.013834s 0.000031s 0.000032s
+
+<====== NEW PROBLEM 1450 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185797       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.013762s 0.000034s 0.000035s
+
+<====== NEW PROBLEM 1500 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185797       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.014430s 0.000032s 0.000035s
+
+<====== NEW PROBLEM 1550 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185797       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.014950s 0.000034s 0.000036s
+
+<====== NEW PROBLEM 1600 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185797       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.016880s 0.000034s 0.000034s
+
+<====== NEW PROBLEM 1650 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185797       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.015809s 0.000039s 0.000041s
+
+<====== NEW PROBLEM 1700 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185797       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.016570s 0.000039s 0.000041s
+
+<====== NEW PROBLEM 1750 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185797       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.017013s 0.000040s 0.000042s
+
+<====== NEW PROBLEM 1800 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185797       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.017234s 0.000047s 0.000045s
+
+<====== NEW PROBLEM 1850 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185797       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.017893s 0.000042s 0.000046s
+
+<====== NEW PROBLEM 1900 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185797       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.018601s 0.000041s 0.000043s
+
+<====== NEW PROBLEM 1950 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185797       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.018491s 0.000042s 0.000045s
+
+<====== NEW PROBLEM 2000 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185797       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.018779s 0.000045s 0.000049s
+
+<====== NEW PROBLEM 2050 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185797       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.020002s 0.000043s 0.000049s
+
+<====== NEW PROBLEM 2100 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185797       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.020375s 0.000045s 0.000048s
+
+<====== NEW PROBLEM 2150 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185797       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.020327s 0.000044s 0.000050s
+
+<====== NEW PROBLEM 2200 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185797       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.021056s 0.000049s 0.000054s
+
+<====== NEW PROBLEM 2250 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185797       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.021502s 0.000050s 0.000054s
+
+<====== NEW PROBLEM 2300 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185797       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.021822s 0.000052s 0.000056s
+
+<====== NEW PROBLEM 2350 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185797       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.023228s 0.000051s 0.000059s
+
+<====== NEW PROBLEM 2400 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185797       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.022753s 0.000055s 0.000062s
+
+<====== NEW PROBLEM 2450 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185797       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.023577s 0.000052s 0.000058s
+
+<====== NEW PROBLEM 2500 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185797       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.023718s 0.000058s 0.000060s
+
+<====== NEW PROBLEM 2550 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185798       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.024252s 0.000070s 0.000069s
+
+<====== NEW PROBLEM 2600 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185798       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.024978s 0.000060s 0.000059s
+
+<====== NEW PROBLEM 2650 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185798       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.024990s 0.000061s 0.000065s
+
+<====== NEW PROBLEM 2700 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185798       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.025978s 0.000062s 0.000063s
+
+<====== NEW PROBLEM 2750 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185798       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.026206s 0.000058s 0.000061s
+
+<====== NEW PROBLEM 2800 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185798       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.026575s 0.000063s 0.000063s
+
+<====== NEW PROBLEM 2850 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185798       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.027163s 0.000060s 0.000064s
+
+<====== NEW PROBLEM 2900 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185798       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.027775s 0.000061s 0.000065s
+
+<====== NEW PROBLEM 2950 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185798       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.027932s 0.000062s 0.000067s
+
+<====== NEW PROBLEM 3000 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185798       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.028885s 0.000069s 0.000070s
+
+<====== NEW PROBLEM 3050 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185798       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.028871s 0.000069s 0.000078s
+
+<====== NEW PROBLEM 3100 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185798       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.029584s 0.000073s 0.000074s
+
+<====== NEW PROBLEM 3150 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185798       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.029855s 0.000073s 0.000075s
+
+<====== NEW PROBLEM 3200 ROWS and 2 COLS ======>
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185798       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.032186s 0.000072s 0.000076s
+
+<====== NEW PROBLEM 3250 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185798       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.030894s 0.000073s 0.000079s
+
+<====== NEW PROBLEM 3300 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185798       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.032662s 0.000077s 0.000078s
+
+<====== NEW PROBLEM 3350 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185798       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.033066s 0.000076s 0.000078s
+
+<====== NEW PROBLEM 3400 ROWS and 2 COLS ======>
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185799       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.033354s 0.000072s 0.000072s
+
+<====== NEW PROBLEM 3450 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185799       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.033827s 0.000071s 0.000076s
+
+<====== NEW PROBLEM 3500 ROWS and 2 COLS ======>
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185799       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.034757s 0.000073s 0.000080s
+
+<====== NEW PROBLEM 3550 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185799       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.035244s 0.000080s 0.000081s
+
+<====== NEW PROBLEM 3600 ROWS and 2 COLS ======>
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185799       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.035643s 0.000091s 0.000082s
+
+<====== NEW PROBLEM 3650 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185799       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.036773s 0.000083s 0.000091s
+
+<====== NEW PROBLEM 3700 ROWS and 2 COLS ======>
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185799       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.036667s 0.000084s 0.000082s
+
+<====== NEW PROBLEM 3750 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185799       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.037177s 0.000085s 0.000086s
+
+<====== NEW PROBLEM 3800 ROWS and 2 COLS ======>
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185799       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.037756s 0.000079s 0.000081s
+
+<====== NEW PROBLEM 3850 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185799       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.038063s 0.000082s 0.000082s
+
+<====== NEW PROBLEM 3900 ROWS and 2 COLS ======>
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185799       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.039098s 0.000088s 0.000093s
+
+<====== NEW PROBLEM 3950 ROWS and 2 COLS ======>
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185799       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.039408s 0.000086s 0.000086s
+
+<====== NEW PROBLEM 4000 ROWS and 2 COLS ======>
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185799       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.040252s 0.000099s 0.000106s
+
+<====== NEW PROBLEM 4050 ROWS and 2 COLS ======>
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185800       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.039601s 0.000093s 0.000092s
+
+<====== NEW PROBLEM 4100 ROWS and 2 COLS ======>
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185800       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.040450s 0.000085s 0.000087s
+
+<====== NEW PROBLEM 4150 ROWS and 2 COLS ======>
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185800       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.041446s 0.000095s 0.000095s
+
+<====== NEW PROBLEM 4200 ROWS and 2 COLS ======>
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185800       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.042152s 0.000094s 0.000094s
+
+<====== NEW PROBLEM 4250 ROWS and 2 COLS ======>
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185800       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.043038s 0.000088s 0.000089s
+
+<====== NEW PROBLEM 4300 ROWS and 2 COLS ======>
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185800       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.043048s 0.000098s 0.000096s
+
+<====== NEW PROBLEM 4350 ROWS and 2 COLS ======>
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185800       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.043488s 0.000098s 0.000110s
+
+<====== NEW PROBLEM 4400 ROWS and 2 COLS ======>
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185800       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.044428s 0.000100s 0.000111s
+
+<====== NEW PROBLEM 4450 ROWS and 2 COLS ======>
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185800       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.045026s 0.000117s 0.000101s
+
+<====== NEW PROBLEM 4500 ROWS and 2 COLS ======>
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185800       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.046240s 0.000103s 0.000110s
+
+<====== NEW PROBLEM 4550 ROWS and 2 COLS ======>
+
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185800       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.046409s 0.000115s 0.000122s
+
+<====== NEW PROBLEM 4600 ROWS and 2 COLS ======>
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185801       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.047104s 0.000096s 0.000147s
+
+<====== NEW PROBLEM 4650 ROWS and 2 COLS ======>
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185801       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.046887s 0.000096s 0.000105s
+
+<====== NEW PROBLEM 4700 ROWS and 2 COLS ======>
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185801       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.051980s 0.000098s 0.000102s
+
+<====== NEW PROBLEM 4750 ROWS and 2 COLS ======>
+
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185801       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.052314s 0.000108s 0.000122s
+
+<====== NEW PROBLEM 4800 ROWS and 2 COLS ======>
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185801       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.052842s 0.000124s 0.000130s
+
+<====== NEW PROBLEM 4850 ROWS and 2 COLS ======>
+
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185801       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.052870s 0.000110s 0.000116s
+
+<====== NEW PROBLEM 4900 ROWS and 2 COLS ======>
+
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185801       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.054185s 0.000122s 0.000118s
+
+<====== NEW PROBLEM 4950 ROWS and 2 COLS ======>
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185801       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.056329s 0.000114s 0.000124s
+
+<====== NEW PROBLEM 5000 ROWS and 2 COLS ======>
+
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185801       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.056886s 0.000114s 0.000121s
+
+<====== NEW PROBLEM 5050 ROWS and 2 COLS ======>
+
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185802       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.057137s 0.000131s 0.000133s
+
+<====== NEW PROBLEM 5100 ROWS and 2 COLS ======>
+
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185802       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.057502s 0.000115s 0.000120s
+
+<====== NEW PROBLEM 5150 ROWS and 2 COLS ======>
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185802       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.056898s 0.000117s 0.000171s
+
+<====== NEW PROBLEM 5200 ROWS and 2 COLS ======>
+
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185802       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.058347s 0.000118s 0.000119s
+
+<====== NEW PROBLEM 5250 ROWS and 2 COLS ======>
+
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185802       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.058488s 0.000108s 0.000116s
+
+<====== NEW PROBLEM 5300 ROWS and 2 COLS ======>
+
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185802       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.059208s 0.000178s 0.000129s
+
+<====== NEW PROBLEM 5350 ROWS and 2 COLS ======>
+
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185802       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.060388s 0.000121s 0.000126s
+
+<====== NEW PROBLEM 5400 ROWS and 2 COLS ======>
+
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185802       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.060082s 0.000136s 0.000142s
+
+<====== NEW PROBLEM 5450 ROWS and 2 COLS ======>
+
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185802       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.060750s 0.000125s 0.000130s
+
+<====== NEW PROBLEM 5500 ROWS and 2 COLS ======>
+
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185803       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.062335s 0.000174s 0.000173s
+
+<====== NEW PROBLEM 5550 ROWS and 2 COLS ======>
+
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185803       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.057551s 0.000144s 0.000154s
+
+<====== NEW PROBLEM 5600 ROWS and 2 COLS ======>
+
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185803       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.057465s 0.000126s 0.000132s
+
+<====== NEW PROBLEM 5650 ROWS and 2 COLS ======>
+
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185803       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.058306s 0.000116s 0.000121s
+
+<====== NEW PROBLEM 5700 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185803       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.054840s 0.000120s 0.000125s
+
+<====== NEW PROBLEM 5750 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185803       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.056317s 0.000121s 0.000126s
+
+<====== NEW PROBLEM 5800 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185803       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.056175s 0.000121s 0.000128s
+
+<====== NEW PROBLEM 5850 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185803       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.055933s 0.000122s 0.000123s
+
+<====== NEW PROBLEM 5900 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185804       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.056183s 0.000123s 0.000131s
+
+<====== NEW PROBLEM 5950 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185804       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.057385s 0.000123s 0.000129s
+
+<====== NEW PROBLEM 6000 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185804       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.057576s 0.000124s 0.000131s
+
+<====== NEW PROBLEM 6050 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185804       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.063300s 0.000126s 0.000135s
+
+<====== NEW PROBLEM 6100 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185804       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.057807s 0.000126s 0.000126s
+
+<====== NEW PROBLEM 6150 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185804       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.064486s 0.000157s 0.000165s
+
+<====== NEW PROBLEM 6200 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185804       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.060112s 0.000134s 0.000136s
+
+<====== NEW PROBLEM 6250 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185804       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.064408s 0.000129s 0.000135s
+
+<====== NEW PROBLEM 6300 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185805       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.059521s 0.000130s 0.000135s
+
+<====== NEW PROBLEM 6350 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185805       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.066762s 0.000129s 0.000152s
+
+<====== NEW PROBLEM 6400 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185805       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.062293s 0.000131s 0.000138s
+
+<====== NEW PROBLEM 6450 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185805       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.066857s 0.000131s 0.000144s
+
+<====== NEW PROBLEM 6500 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185805       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.066225s 0.000136s 0.000149s
+
+<====== NEW PROBLEM 6550 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185805       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.069093s 0.000135s 0.000150s
+
+<====== NEW PROBLEM 6600 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185805       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.064455s 0.000136s 0.000139s
+
+<====== NEW PROBLEM 6650 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185805       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.070511s 0.000140s 0.000151s
+
+<====== NEW PROBLEM 6700 ROWS and 2 COLS ======>
+
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185806       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.068564s 0.000156s 0.000157s
+
+<====== NEW PROBLEM 6750 ROWS and 2 COLS ======>
+
+
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185806       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.069328s 0.000140s 0.000144s
+
+<====== NEW PROBLEM 6800 ROWS and 2 COLS ======>
+
+
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185806       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.070755s 0.000153s 0.000162s
+
+<====== NEW PROBLEM 6850 ROWS and 2 COLS ======>
+
+
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185806       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.075086s 0.000143s 0.000150s
+
+<====== NEW PROBLEM 6900 ROWS and 2 COLS ======>
+
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185806       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.071521s 0.000154s 0.000163s
+
+<====== NEW PROBLEM 6950 ROWS and 2 COLS ======>
+
+
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185806       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.072054s 0.000156s 0.000163s
+
+<====== NEW PROBLEM 7000 ROWS and 2 COLS ======>
+
+
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185806       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.072269s 0.000144s 0.000156s
+
+<====== NEW PROBLEM 7050 ROWS and 2 COLS ======>
+
+
+
+
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185807       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.071840s 0.000157s 0.000183s
+
+<====== NEW PROBLEM 7100 ROWS and 2 COLS ======>
+
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185807       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.068883s 0.000146s 0.000154s
+
+<====== NEW PROBLEM 7150 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185807       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.073384s 0.000150s 0.000153s
+
+<====== NEW PROBLEM 7200 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185807       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.071400s 0.000151s 0.000157s
+
+<====== NEW PROBLEM 7250 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185807       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.068695s 0.000150s 0.000155s
+
+<====== NEW PROBLEM 7300 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185807       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.068588s 0.000149s 0.000159s
+
+<====== NEW PROBLEM 7350 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185808       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.069692s 0.000152s 0.000166s
+
+<====== NEW PROBLEM 7400 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185808       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.069608s 0.000153s 0.000157s
+
+<====== NEW PROBLEM 7450 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185808       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.077024s 0.000154s 0.000156s
+
+<====== NEW PROBLEM 7500 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185808       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.071099s 0.000171s 0.000162s
+
+<====== NEW PROBLEM 7550 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185808       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.074535s 0.000184s 0.000201s
+
+<====== NEW PROBLEM 7600 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185808       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.079324s 0.000171s 0.000185s
+
+<====== NEW PROBLEM 7650 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185808       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.073310s 0.000172s 0.000182s
+
+<====== NEW PROBLEM 7700 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185809       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.072525s 0.000175s 0.000185s
+
+<====== NEW PROBLEM 7750 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185809       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.073489s 0.000171s 0.000170s
+
+<====== NEW PROBLEM 7800 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185809       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.075535s 0.000168s 0.000172s
+
+<====== NEW PROBLEM 7850 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185809       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.079024s 0.000186s 0.000184s
+
+<====== NEW PROBLEM 7900 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185809       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.074965s 0.000165s 0.000182s
+
+<====== NEW PROBLEM 7950 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185809       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.074722s 0.000167s 0.000175s
+
+<====== NEW PROBLEM 8000 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185810       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.075875s 0.000165s 0.000176s
+
+<====== NEW PROBLEM 8050 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185810       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.078112s 0.000166s 0.000176s
+
+<====== NEW PROBLEM 8100 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185810       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.083525s 0.000165s 0.000173s
+
+<====== NEW PROBLEM 8150 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185810       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.078164s 0.000168s 0.000194s
+
+<====== NEW PROBLEM 8200 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185810       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.084253s 0.000191s 0.000192s
+
+<====== NEW PROBLEM 8250 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185810       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.085718s 0.000187s 0.000214s
+
+<====== NEW PROBLEM 8300 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185811       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.079368s 0.000173s 0.000182s
+
+<====== NEW PROBLEM 8350 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185811       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.075787s 0.000187s 0.000206s
+
+<====== NEW PROBLEM 8400 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185811       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.082984s 0.000188s 0.000200s
+
+<====== NEW PROBLEM 8450 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185811       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.084991s 0.000175s 0.000187s
+
+<====== NEW PROBLEM 8500 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185811       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.084766s 0.000183s 0.000195s
+
+<====== NEW PROBLEM 8550 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185811       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.086848s 0.000178s 0.000186s
+
+<====== NEW PROBLEM 8600 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185812       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.080444s 0.000176s 0.000191s
+
+<====== NEW PROBLEM 8650 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185812       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.081118s 0.000178s 0.000199s
+
+<====== NEW PROBLEM 8700 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185812       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.081598s 0.000231s 0.000239s
+
+<====== NEW PROBLEM 8750 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185812       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.088251s 0.000181s 0.000191s
+
+<====== NEW PROBLEM 8800 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185812       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.088912s 0.000182s 0.000190s
+
+<====== NEW PROBLEM 8850 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185812       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.089311s 0.000182s 0.000188s
+
+<====== NEW PROBLEM 8900 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185813       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.091005s 0.000186s 0.000189s
+
+<====== NEW PROBLEM 8950 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185813       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.089247s 0.000186s 0.000198s
+
+<====== NEW PROBLEM 9000 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185813       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.090285s 0.000190s 0.000194s
+
+<====== NEW PROBLEM 9050 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185813       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.087941s 0.000189s 0.000211s
+
+<====== NEW PROBLEM 9100 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185813       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.086068s 0.000194s 0.000197s
+
+<====== NEW PROBLEM 9150 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185814       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.086233s 0.000207s 0.000223s
+
+<====== NEW PROBLEM 9200 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185814       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.086696s 0.000190s 0.000195s
+
+<====== NEW PROBLEM 9250 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185814       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.092923s 0.000191s 0.000192s
+
+<====== NEW PROBLEM 9300 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185814       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.094400s 0.000192s 0.000206s
+
+<====== NEW PROBLEM 9350 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185814       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.093353s 0.000196s 0.000197s
+
+<====== NEW PROBLEM 9400 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185815       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.094231s 0.000191s 0.000210s
+
+<====== NEW PROBLEM 9450 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185815       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.094815s 0.000198s 0.000208s
+
+<====== NEW PROBLEM 9500 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185815       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.094776s 0.000195s 0.000210s
+
+<====== NEW PROBLEM 9550 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185815       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.097682s 0.000202s 0.000204s
+
+<====== NEW PROBLEM 9600 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185815       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.095323s 0.000207s 0.000212s
+
+<====== NEW PROBLEM 9650 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185815       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.098029s 0.000200s 0.000203s
+
+<====== NEW PROBLEM 9700 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185816       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.098832s 0.000209s 0.000216s
+
+<====== NEW PROBLEM 9750 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185816       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.097263s 0.000202s 0.000218s
+
+<====== NEW PROBLEM 9800 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185816       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.098360s 0.000208s 0.000261s
+
+<====== NEW PROBLEM 9850 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185816       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.099286s 0.000204s 0.000223s
+
+<====== NEW PROBLEM 9900 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185816       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.098907s 0.000213s 0.000213s
+
+<====== NEW PROBLEM 9950 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185817       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.098994s 0.000207s 0.000225s
+
+<====== NEW PROBLEM 10000 ROWS and 2 COLS ======>
+SEED              PCX       DYER       PERSONAL       D_CORRECT?       P_CORRECT       D<->P_CORRECT
+1616185817       -0.000000 -0.000000  -0.000000      YES              YES              YES
+TIMES: 0.100687s 0.000211s 0.000219s
+
