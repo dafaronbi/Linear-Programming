@@ -105,10 +105,56 @@ LPtype* makePCXProblem(double c1, double c2,double a1 [], double a2 [], double b
 
     num_ents += num_contraints;
 
-    printf("%d\n",num_ents);
+    // LPtype* LP = NewLP(num_contraints, 2+num_contraints,num_ents);
+    // printf("num rows is %d\n", LP->Rows);
 
+    int Rows = num_contraints;
+    int Cols = num_contraints + 2;
+    int Ents = num_ents;
 
-    LPtype* LP = NewLP(num_contraints, 2+num_contraints,num_ents);
+    LPtype         *LP;
+  
+
+   LP = (LPtype *) Malloc(sizeof(LPtype), "LP");
+
+   LP->Atranspose.pBeginRow = NewInt(Rows, "LP->Atranspose.pBeginRow");
+   LP->Atranspose.pEndRow = NewInt(Rows, "LP->Atranspose.pEndRow");
+   LP->Atranspose.Row = NewInt(Ents, "LP->Atranspose.Row");
+   LP->Atranspose.Value = NewDouble(Ents, "LP->Atranspose.Value");
+   
+   LP->Rows = Rows;
+
+   LP->A.NumRows = Rows;
+   LP->Atranspose.NumRows = Cols;
+   LP->Cols = Cols;
+   LP->A.NumCols = Cols;
+   LP->Atranspose.NumCols = Rows;
+   LP->Ents = Ents;
+   LP->A.Nonzeros = Ents;
+   LP->Atranspose.Nonzeros = Ents;
+   LP->cshift = 0.0;
+   
+   LP->b = NewDouble(Rows, "LP->b");
+   LP->c = NewDouble(Cols, "LP->c");
+
+   LP->VarType = NewInt(Cols, "LP->BoundType");
+   LP->UpBound = NewDouble(Cols, "LP->UpBound");
+   LP->NumberBounds = 0;
+   LP->BoundIndex = NewInt(Cols, "LP->BoundIndex");
+   LP->NumberFree = 0;
+   LP->FreeIndex = NewInt(Cols, "LP->FreeIndex");
+   
+   LP->A.pBeginRow = NewInt(Cols, "LP->A.pBeginRow");
+   LP->A.pEndRow = NewInt(Cols, "LP->A.pEndRow");
+   LP->A.Row = NewInt(Ents, "LP->A.Row");
+   LP->A.Value = NewDouble(Ents, "LP->A.Value");
+   
+   LP->FreePlus  = NULL;
+   LP->FreeMinus = NULL;
+   LP->NumberSplit = 0;
+   
+   LP->ColScale  = NULL;
+   LP->RowScale  = NULL;
 
     LP->Rows = num_contraints;
     LP->Cols = 2 + num_contraints;
@@ -2532,8 +2578,7 @@ void solve_problem(char * file_name, int in_ROWS, int COLLUMNS){
 int main(int argc, char**argv){
 
    
-
-
+ 
     //FOR TESTING
     int min = 1;
     int max = 100;

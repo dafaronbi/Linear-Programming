@@ -1,0 +1,11 @@
+This guide will show you how to install PCx and use it on Linux.
+
+1. Clone the repository. Use this link -> https://github.com/dafaronbi/PCx.git
+	You can clone the repository with git. There are instructions in the readme.md 		file in the repository
+
+2. Install requirements. You must have gfortran, gcc, GNU make, and GNU autoconf installed. gfortran must be above version 4.8.1, gcc make must be above version 4.8.1, GNU make must be above version 3.82, and GNU Autoconf must be above version 2.69
+
+
+3. Now run ./configure and make commands
+
+4. Pcx should run, consult the Pcx manual (should be in documents of this git hub repo) for running PCx

@@ -1,0 +1,11 @@
+This guide will show you how to install PCx and use it on Linux.
+
+1. Check in three variable folder
+
+2. Open main.c and edit to change problem and parameters
+
+3. Run command: make
+
+4. This should make a file named exec
+
+5. Run exec file with command: ./exec

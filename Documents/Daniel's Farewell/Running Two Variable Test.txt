@@ -1,0 +1,21 @@
+This guide will show you how to install PCx and use it on Linux.
+
+1. Clone a version of Pcx read Installing PCx.txt
+
+2. Replace the main.c and main.h files in the newly cloned PCx with the files from the testing folder. To do this copy the main.c and main.h files from this repository testing folder. They are located in Testing\PCx\src.
+
+3. Create a folder named RP_TXT in the PCx folder.
+
+4. (Optional) to change if debug text is display change the #define DPDUBUG on (line 88). 0 means no Debug test 1 means debug test. To compile when chaning the main.h file, be sure to change something in main.c. I usually add and delete a space.
+
+5.Run the program. When you are in the Pcx folder run by typing the command:
+
+./PCx starting_rowlenght ending_rowLenght increment size
+
+This will test a variety of problems. Each problem will be randomly generated with a different number of rows. The first problem will have starting_rowlenght number of rows. The subsequent problems will increment the number of rows they have by increment size. Problems will be generated until the exec the ending_rowLenght
+
+6. You can also run an already generated problem that is in the RP_TXT folder with the command:
+
+./PCx -p filename.txt num_rows
+
+Use -p to indicate it is a regenerated problem. filename.txt is the name of the generated txt file in RP_TXT folder that you want to run. num_rows is the number of rows in that text files (THIS IS NESCESARY)
