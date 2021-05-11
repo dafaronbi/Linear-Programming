@@ -1,4 +1,4 @@
-This guide will show you how to install PCx and use it on Linux.
+This guide will show you how to run test for the two variable solver.
 
 1. Clone a version of Pcx read Installing PCx.txt
 
