@@ -6,7 +6,7 @@ This guide will show you how to run test for the two variable solver.
 
 3. Create a folder named RP_TXT in the PCx folder.
 
-4. (Optional) to change if debug text is display change the #define DPDUBUG on (line 88). 0 means no Debug test 1 means debug test. To compile when chaning the main.h file, be sure to change something in main.c. I usually add and delete a space.
+4. (Optional) to change if debug text is display change the #define DPDUBUG on (line 88 of main.h). 0 means no Debug test 1 means debug test. To compile when chaning the main.h file, be sure to change something in main.c. I usually add and delete a space.
 
 5.Run the program. When you are in the Pcx folder run by typing the command:
 
