@@ -1,0 +1,17 @@
+Three Variable Problem
+
+Right now there are three main issues with this code
+
+1.	Line Search
+	The main problem as of now is the returned value of G(xo). The pairing algorithm now returns both xo and G(xo). Xo must be used again in another minimization problem (minimize F*(x,y)=max{fil(X-X)+fi2y}, ). To find the region were So resides, g1’g2 g1g2’ must be calculated. Unfortunately,  I had yet to figure out what g1,g2,g1’, and g2’ were when reading the paper.
+
+	The other problem was the transformation. At the beginning of 3.2 you are asked to transform the line, so that y = 0. However, we can not change thee x and y values since the final values have not been calculated yet. My idea was to transform the problem back once we have finished the line search, but I’m unsure if this will give an inaccurate answer.
+
+2.	3.1 Minimax Algorithm
+	This part is nearly complete. However, Step zero of picking the right point may need improvement. There also needs to be an inbuilt loop After the line search is complete.
+
+					
+				
+			
+		
+
